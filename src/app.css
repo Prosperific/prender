@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'CGA Thin';
 	src: url('fonts/Web437_IBM_CGAthin.woff') format('woff'),
-		 url('fonts/Ac437_IBM_CGAthin.ttf') format('ttf');
+		 url('fonts/Ac437_IBM_CGAthin.ttf') format('truetype');
 }
   
 @font-face {
 	font-family: 'CGA Thin';
 	src: url('fonts/Web437_IBM_CGA.woff') format('woff'),
-		 url('fonts/Ac437_IBM_CGA.ttf') format('ttf');
+		 url('fonts/Ac437_IBM_CGA.ttf') format('truetype');
 	font-weight: bold;
 }
 
