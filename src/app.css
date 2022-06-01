@@ -1,14 +1,31 @@
 @font-face {
-	font-family: 'CGA Thin';
-	src: url('fonts/Web437_IBM_CGAthin.woff') format('woff'),
-		 url('fonts/Ac437_IBM_CGAthin.ttf') format('truetype');
+    font-display: swap;
+    font-family: 'CGA Thin';
+    /* IE9 Compat Modes */
+    src: url('fonts/CGAthin/Web437_IBM_CGAthin.eot');
+    /* IE6-IE8 */
+    src: url('fonts/CGAthin/Web437_IBM_CGAthin.eot?#iefix') format('embedded-opentype'),
+        /* Super Modern Browsers */ url('fonts/CGAthin/Web437_IBM_CGAthin.woff2') format('woff2'),
+        /* Pretty Modern Browsers */ url('fonts/CGAthin/Web437_IBM_CGAthin.woff') format('woff'),
+        /* Safari, Android, iOS */ url('fonts/CGAthin/Web437_IBM_CGAthin.ttf') format('truetype'),
+        /* Legacy iOS */ url('fonts/CGAthin/Web437_IBM_CGAthin.svg#CGA Thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-  
+
 @font-face {
-	font-family: 'CGA Thin';
-	src: url('fonts/Web437_IBM_CGA.woff') format('woff'),
-		 url('fonts/Ac437_IBM_CGA.ttf') format('truetype');
-	font-weight: bold;
+    font-display: swap;
+    font-family: 'CGA Thin';
+    /* IE9 Compat Modes */
+    src: url('fonts/CGA/Web437_IBM_CGA.eot');
+    /* IE6-IE8 */
+    src: url('fonts/CGA/Web437_IBM_CGA.eot?#iefix') format('embedded-opentype'),
+        /* Super Modern Browsers */ url('fonts/CGA/Web437_IBM_CGA.woff2') format('woff2'),
+        /* Pretty Modern Browsers */ url('fonts/CGA/Web437_IBM_CGA.woff') format('woff'),
+        /* Safari, Android, iOS */ url('fonts/CGA/Web437_IBM_CGA.ttf') format('truetype'),
+        /* Legacy iOS */ url('fonts/CGA/Web437_IBM_CGA.svg#CGA Thin') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
 :root {
