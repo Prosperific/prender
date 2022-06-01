@@ -9,6 +9,16 @@
 <footer></footer>
 
 <style>
+	@font-face {
+		font-family: 'CGA Thin';
+		src: url('Web437_IBM_CGAthin.woff') format('woff');
+	}
+	
+	@font-face {
+		font-family: 'CGA Thin';
+		src: url('Web437_IBM_CGA.woff') format('woff');
+		font-weight: bold;
+	}
 	main {
 		flex: 1;
 		display: flex;
